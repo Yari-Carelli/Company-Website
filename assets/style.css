@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 
+/* Base Style */
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 /* Homepage */
 
 .header-home{
@@ -145,9 +153,6 @@
     font-weight: bold;
 }
 
-.navbar-brand:hover{
-    color: white;
-}
 
 /* Animated Scroll Button */
 
@@ -217,5 +222,6 @@ p{
 /* Sticky Header and Navbar */
 
 .secondary{
-    background: rgba(0,0,0,0,0.7);
+    background-image: -webkit-linear-gradient(145deg,#faa61f 0%,#ed1847 100%);
+    transition: all 0.5s ease-in;
 }
