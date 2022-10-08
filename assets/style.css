@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+/* Homepage */
+
+.header-home{
+    background-image: -webkit-linear-gradient(145deg,#faa61f 0%,#ed1847 100%);
+    position: relative;
+    padding-top: 185px;
+    padding-bottom: 180px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.col-header-text{
+    color: white;
+}
+
+.col-header-text h1{
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 0.05px;
+    font-weight: 300;
+    color: white;
+}
+
+.col-header-text h1 span{
+    font-weight: 600; 
+}
+
+.col-header-text p{
+    font-size: 16px;
+    line-height: 30px;
+    margin: 25px 0 54px;
+    text-align: justify;
+}
+
+.col-header-img{
+    position: relative;
+}
+
+.col-header-img img{
+    position: absolute;
+}
+
+.col-header-img img.img-header-lg{
+    right: -56px;
+    top: -73px;
+    z-index: 20;
+}
+
+.col-header-img img.img-header-sm{
+    right: 62px;
+    top: 118px;
+    z-index: 20;
+}
+
+.banner_btn{
+    font-size: 14px;
+    line-height: 58px;
+    text-align: center !important;
+    font-family: tahoma;
+    font-weight: 700;
+    width: 220px;
+    height: 60px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    transition: all 0.5s linear;
+    color: #272929;
+    background: white;
+    margin-right: 10px;
+}
+
+.banner_btn:hover{
+    text-decoration: none;
+}
+
+.social{
+    margin-top: 90px;
+}
+
+.social a{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
