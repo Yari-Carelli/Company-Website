@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+
 /* Home Section */
 
 .header-home{
@@ -388,10 +389,11 @@ span p{
     color: #fff;
 }
 
+
 /* Services Section */
 
 .services-item{
-    padding: 0px;
+    padding: 0 8px;
 }
 
 .services-item span{
@@ -427,4 +429,30 @@ h5.services-heading:after{
 
 .gaps{
     margin-top: 50px;
+}
+
+
+/* Statistics Section */
+
+.stat{
+    background: #212121;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+    margin-top: 100px;
+}
+
+.stat i{
+    font-size: 45px;
+}
+
+.stat-items h2{
+    font-weight: bolder;
+    font-size: 32px;
+    color: darkorange;
+}
+
+.stat p{
+    font-weight: bold;
+    letter-spacing: 1px;
 }
