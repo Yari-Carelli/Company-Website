@@ -10,6 +10,7 @@ $(window).scroll(function(){
     }
 });
 
+
 // Counter Up
 jQuery(document).ready(function($) {
     $('.counter').counterUp({
@@ -17,3 +18,10 @@ jQuery(document).ready(function($) {
         time: 1000
     });
 });
+
+
+// Owl Carousel
+
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+  });
