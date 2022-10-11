@@ -46,7 +46,7 @@ $(function (){
                 items: 5
             },
             992: {
-                items: 5
+                items: 4
             }
         }
     });
