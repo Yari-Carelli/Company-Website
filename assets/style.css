@@ -456,3 +456,188 @@ h5.services-heading:after{
     font-weight: bold;
     letter-spacing: 1px;
 }
+
+
+/* Team Section */
+
+.skills{
+    margin-top: 20px;
+}
+
+.skillbar{
+    position: relative;
+    display: block;
+    margin: 0 auto 20px;
+    width: 100%;
+    height: 40px;
+    transition: 0.4s linear;
+    transition-property: width,background-color;
+}
+
+.skillbar-title{
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.skillbar-bar{
+    height: 2px;
+    width: 80%;
+    background: #000;
+    border-radius: 3px;
+    float: left;
+}
+
+.skill_area p{
+    text-align: justify;
+    width: 90%;
+}
+
+.team-item{
+    position: relative;
+}
+
+.team-item .info{
+    padding-top: 0;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: all .8s;
+}
+
+.team-item .info h5{
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: #bfa67a;
+    transition: all 0.5s;
+}
+
+.team-item:hover .info h5{
+    margin-bottom: 10px;
+}
+
+.team-item .info h6{
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #eee;
+    transition: all 0.2s;
+}
+
+.team-item:hover .info h6{
+    margin-bottom: 10px;
+}
+
+.team-item:hover .info{
+    padding-top: 40%;
+}
+
+.team-item .social-icon{
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.team-item .social-icon span{
+    margin: 10px;
+    transition: all .7s;
+    color: #eee;
+}
+
+.team-item:hover .info{
+    opacity: 1;
+}
+
+.team-item:hover .social-icon{
+    opacity: 1;
+}
+
+
+/* Pricing Plans Section */
+
+.price-item{
+    border-radius: 10px 10px 10px 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px 0px rgba(221,221,221,0.9);
+    transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    padding: 70px 50px 70px 50px;
+    width: 100%;
+    position: relative;
+}
+
+.price-item:hover{
+    box-shadow: 0px 0px 40px 0px rgba(221,221,221,1);
+}
+
+.pricing-price{
+    margin-bottom: 20px;
+}
+
+.pricing-action .pricing-price h2,
+.pricing-action ul.pricing-feature li,
+.pricing-action .pricing-price span{
+    color: #dddddd;
+}
+
+.pricing-price h2{
+    color: #4c4c4c;
+    font-size: 65px;
+}
+
+.pricing-price span{
+    color: #4c4c4c;
+    font-size: 17px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.pricing_divider{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.pricing_divider span{
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: #4c4c4c;
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+ul.pricing-feature{
+    text-align: left;
+    padding-left: 20%;
+}
+
+ul.pricing-feature li{
+    padding-top: 8px 0;
+    font-size: 14px;
+    color: #999;
+}
+
+ul.pricing-feature li .ion-android-done-all{
+    width: 16px;
+}
+
+ul.pricing-feature li .feature_list{
+    padding-left: 15px;
+}
+
+.pricing-action{
+    padding-top: 10%;
+}
+
+
+/* Testimonial Section */
