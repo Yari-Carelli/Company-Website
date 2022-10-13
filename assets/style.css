@@ -39,6 +39,12 @@
     position: relative;
 }
 
+@media (max-width: 767px) {                  
+    .col-header-img{
+       display: none;
+    }
+ }
+
 .col-header-img img{
     position: absolute;
 }
@@ -172,6 +178,12 @@ span p{
     text-align: center;
     margin-top: -30px;
 }
+
+@media (max-width: 767px) {                  
+    .scroll-btn{
+       display: none;
+    }
+ }
 
 .scroll-btn > *{
     display: inline-block;
@@ -498,6 +510,11 @@ h5.services-heading:after{
     position: relative;
 }
 
+.team-item img{
+    width: 100%;
+    height: auto;
+}
+
 .team-item .info{
     padding-top: 0;
     text-align: center;
@@ -566,8 +583,12 @@ h5.services-heading:after{
 .price-item{
     border-radius: 10px 10px 10px 10px;
     background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(221,221,221,0.9);
     box-shadow: 0px 0px 20px 0px rgba(221,221,221,0.9);
-    transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s;
+    -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
     text-align: center;
     margin: 20px 20px 20px 20px;
     padding: 70px 50px 70px 50px;
@@ -576,6 +597,7 @@ h5.services-heading:after{
 }
 
 .price-item:hover{
+    -webkit-box-shadow: 0px 0px 70px 0px rgba(221,221,221,1);
     box-shadow: 0px 0px 70px 0px rgba(221,221,221,1);
 }
 
@@ -785,3 +807,24 @@ ul.pricing-feature li .feature_list{
 
 
 /* Clients Section */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.owl-carousel{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;    
+}
+
+.owl-carousel img{
+    width: 100%;
+    height: auto;
+    border: 1px dashed #000;
+}

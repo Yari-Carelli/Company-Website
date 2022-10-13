@@ -14,40 +14,30 @@ $(window).scroll(function(){
 // Statistics Section
 jQuery(document).ready(function($) {
     $('.counter').counterUp({
-        delay: 10,
-        time: 1000
+        delay: 15,
+        time: 4000
     });
 });
 
 
-// Testimonials Section
+// Clients Section
 $(document).ready(function(){
-    $(".owl-carousel").owlCarousel();
-  });
-
-
-//Clients Section
-$(function (){
-    
-    $("#clients-list").owlCarousel({
-        items: 5,
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
         autoplay: true,
-        smartSpeed: 700,
-        loop: true,
-        autoplayHoverPause: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            480: {
-                items: 3
-            },
-            768: {
-                items: 5
-            },
-            992: {
-                items: 4
-            }
+        autoplaySpeed: 600,
+        nav:true,
+        responsive:{
+          0:{
+            items:1
+          },
+          600:{
+            items:3
+          },
+          1000:{
+            items:5
+          }
         }
     });
 });
