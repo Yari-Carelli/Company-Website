@@ -185,7 +185,7 @@ span p{
     }
  }
 
-.scroll-btn > *{
+ .scroll-btn{
     display: inline-block;
     line-height: 18px;
     font-size: 13px;
@@ -196,10 +196,10 @@ span p{
     letter-spacing: 2px;
 }
 
-.scroll-btn > *:hover,
-.scroll-btn > *:focus,
-.scroll-btn > *:active,
-.scroll-btn > *.active{
+.scroll-btn:hover,
+.scroll-btn:focus,
+.scroll-btn:active,
+.scroll-btn a{
     opacity: 0.8;
     filter: alpha(opacity=80);
 }
@@ -504,6 +504,11 @@ h5.services-heading:after{
 .skill_area p{
     text-align: justify;
     width: 90%;
+}
+
+.pull-right{
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .team-item{

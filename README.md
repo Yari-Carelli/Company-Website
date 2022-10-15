@@ -24,11 +24,11 @@
 
 ## Technologies Used
 
-- HTML 5 → for the webpage's markup language
-- CSS 3 → to format the webpage's layout
-- Bootstrap 3 → for responsiveness
+- HTML → for the webpage's markup language
+- CSS → to format the webpage's layout
+- Bootstrap → for responsiveness, Contact Section
 - JavaScript → for Sticky Header and Navigation Menu, Statistics Section, Client Section
-- Font Awesome Icons (https://fontawesome.com/) → for icons
+- Ionicons (https://nbs-it.github.io/ionicons-v2.0.1/) & Font Awesome Icons (https://fontawesome.com/) → for icons
 - Google Fonts (https://fonts.google.com/) → for typography
 - JQuery counting up plugin 'Counter Up 2' (https://github.com/bfintal/Counter-Up2) → for number counting in Statistics Section
 - Owl Carousel 2 (http://owlcarousel2.github.io/OwlCarousel2/) → for Clients Section
