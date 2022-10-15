@@ -1,7 +1,7 @@
 # My First Website
 
 1. [Purpose of the Project]()
-2. [Overview]()
+
 3. [User Stories](#user-stories)
 4. [Features](#features)
 5. [Design]()
@@ -20,6 +20,23 @@
 #
 
 [Live Preview](https://8000-yaricarelli-myfirstwebs-ykjmch12n58.ws-eu71.gitpod.io/)
+
+#
+
+## Purpose of the Project
+
+- Build a static front-end site to present useful information to users, using HTML and CSS as main technologies
+- Design an interactive Front-End web application using HTML and CSS based on the principles of user experience design, accessibility and responsivity
+- Test a Front-End web application through the development, implementation and deployment stages
+- Maximise future maintainability through documentation, code structure and organisation
+- Demonstrate and document the development process through a version control system such as GitHub
+
+#
+
+## Features
+
+- Data is presented to help users achieve their goals, e.g. learning about a product/service in which they are interested. The presentation of this data advances the site owner's goals, e.g. helps them market a product/service.
+
 #
 
 ## Technologies Used
@@ -40,6 +57,14 @@
 - As a Site User, I want to understand the website, so I can learn more about the brand.
 - As a Site User, I want to be able to easily navigate through the website, so I can find the information I am looking for.
 - As a Mobile Device User, I want the website to be responsive, so I can use my phone or tablet to easily visit it.
+
+#
+
+## Validation
+
+https://validator.w3.org/nu/#textarea
+
+## Existing Bugs
 
 #
 
