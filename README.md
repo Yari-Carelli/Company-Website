@@ -1,23 +1,9 @@
-# My First Website
+# **My First Website**
 
-1. [Purpose of the Project]()
 
-3. [User Stories](#user-stories)
-4. [Features](#features)
-5. [Design]()
-   - [Typography & Color Scheme]()
-6. [Wireframes]()
-7. [Technologies Used](#technologies-used)
-8. [Testing]()
-   - [Code Validation]()
-   - [Test Cases (user story based with screenshots)]()
-   - [Fixed Bugs]()
-   - [Supported Screens & Browsers]()
-9. [Deployment]()
-   - [Via Gitpod]()
-   - [Via Github Pages]()
-10. [Credits]()
 #
+This project was created as part of the Full Stack Software Development course offered by Code Institute. <br>
+It is a single page website made of multiple sections: Home section, About Us section, Services section, Statistics section, Team section, Prices section, Testimonials section, Blog section, Clients section, Contact section.
 
 [Live Preview](https://8000-yaricarelli-myfirstwebs-ykjmch12n58.ws-eu71.gitpod.io/)
 
@@ -28,6 +14,7 @@
 - Build a static front-end site to present useful information to users, using HTML and CSS as main technologies
 - Design an interactive Front-End web application using HTML and CSS based on the principles of user experience design, accessibility and responsivity
 - Test a Front-End web application through the development, implementation and deployment stages
+- Deploy a Front-End web application to a Cloud platform
 - Maximise future maintainability through documentation, code structure and organisation
 - Demonstrate and document the development process through a version control system such as GitHub
 
@@ -35,7 +22,41 @@
 
 ## Features
 
-- Data is presented to help users achieve their goals, e.g. learning about a product/service in which they are interested. The presentation of this data advances the site owner's goals, e.g. helps them market a product/service.
+### Navigation
+- Featured at the top of the page, the Navigation shows the company name and logo in the left corner
+- All the navigation links are to the right, which link to different sections of the same page
+- The Navigation is in a color that contrasts with the background
+- The Navigation makes the different sections of information easy to find
+- The Navigation bar is fixed on top to facilitate users to navigate through pages easily
+
+<img width="600" src="assets//images/navbar.png">
+
+### Home Section
+- The Header is in a large font-size to catch the user's attention and make the purpose of the website immediately understood by the user
+- The Header briefly explains what the website is about
+- The Home section features social media icons which ideally link the website to its profiles on the different social media platforms
+- Two buttons invite the user to extend their stay on the site
+
+<img width="600" src="assets/images/home_section.png">
+
+### About Us Section
+
+- The About Us section gives details about what the company offers their clients
+- This section shows the user the important information they need to know about the company
+The about section features an image on the right, which recall the website's theme colors, with an icon on the center of it which ideally links to a presentation video of the company; at the moment, by clicking on the icon, the user is directed to Youtube's homepage
+
+<img width="600" src="assets/images/about_section.png">
+
+### Services Section
+- By visiting this section, the user becomes familiar with all the different services the company provides
+- The services are organized in a two-rows layout, and each service is embellished with an appropriate icon
+
+<img width="600" src="assets/images/services_section.png">
+
+### Statistics Section
+- The number counting fuctionality was realized using the JQuery counting up plugin 'Counter Up 2'
+
+<img width="600" src="assets/images/stat_section.png">
 
 #
 
@@ -60,11 +81,44 @@
 
 #
 
-## Validation
+## Manual Testing
 
-https://validator.w3.org/nu/#textarea
+- I tested that this webpage works in different browsers: Chrome, Firefox, Safari
+
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+
+- I confirmed that the navigation and all the sections of the website are readable and easy to understand
+
+- I confirmed that all the functionalities implemented work correctly
+
+#
+
+## Validator Testing
+
+- HTML
+   - Results returned when passing through the official W3C HTML Validator can be viewed by clicking on the link below:
+
+   (https://validator.w3.org/nu/#textarea)
+
+- CSS
+   - No errors were found when passing through the official W3C CSS Validator (Jigsaw)
+
+<img width="600" src="assets/images/css-validator.png">
+
+- Accessibility
+   - I confirmed that the colors and fonts chosen are easy to read and accessibile by running it through Lighthouse in devtools
+
+<img width="600" src="assets/images/">
+
+#
 
 ## Existing Bugs
+
+The existing errors shown in the screenshot below resulted when passing through the official W3C HTML Validator. <br>
+An attempt to solve the errors consisted in changing the aforementioned `span` element into a `div` element, however the same error was returned when passing through the Validator again. <br>
+Therefore, the errors have been purposely ignored as they do not affect code functionality.
+
+<img width="600" src="assets/images/bugs.png">
 
 #
 
