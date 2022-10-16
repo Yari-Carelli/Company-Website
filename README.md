@@ -30,6 +30,7 @@ It is a single page website made of multiple sections: Home section, About Us se
 - As a Site User, I want to understand the website, so I can learn more about the brand.
 - As a Site User, I want to be able to easily navigate through the website, so I can find the information I am looking for.
 - As a Mobile Device User, I want the website to be responsive, so I can use my phone or tablet to easily visit it.
+- As a Site User, I want to be able to send a message by filling the form provided, so I can contact the company for business inquiries.
 
 #
 

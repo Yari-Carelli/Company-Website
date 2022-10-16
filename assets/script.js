@@ -1,4 +1,4 @@
-//Navbar
+//Navigation Bar & Menu
 $(window).scroll(function(){
     var top = $(window).scrollTop();
     if(top>=60){
@@ -11,7 +11,7 @@ $(window).scroll(function(){
 });
 
 
-// Statistics Section
+// Number Counting in Statistics Section
 jQuery(document).ready(function($) {
     $('.counter').counterUp({
         delay: 15,
@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
 });
 
 
-// Clients Section
+// Carousel Slider in Clients Section
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
@@ -43,7 +43,6 @@ $(document).ready(function(){
 });
 
 // Alert Message in Contact Form on Send
-
 function message(){
   var Name = document.getElementById('name');
   var email = document.getElementById('email');
