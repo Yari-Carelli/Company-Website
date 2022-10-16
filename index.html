@@ -15,6 +15,7 @@
     <!-- Owl Carousel2 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -25,8 +26,6 @@
     <script src="assets/counterup/jquery.counterup.min.js"></script>
     <script src="assets/counterup/jquery.waypoints.min.js"></script>
 
-    <script src="jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Style.css -->
     <link rel="stylesheet" href="assets/style.css">
@@ -341,25 +340,25 @@
                 <div id="skills">
                     <div class="skillbar" data-percent="95%">
                         <div class="skillbar-title"><b>Random Skill</b>
-                            <span class="pull-right" skillbar-percent>95%</span>
+                            <span class="pull-right">95%</span>
                         </div>
                         <div class="skillbar-bar"></div>
                     </div>
                     <div class="skillbar" data-percent="95%">
                         <div class="skillbar-title"><b>Random Skill</b>
-                            <span class="pull-right" skillbar-percent>95%</span>
+                            <span class="pull-right">95%</span>
                         </div>
                         <div class="skillbar-bar"></div>
                     </div>
                     <div class="skillbar clearfix" data-percent="95%">
                         <div class="skillbar-title"><b>Random Skill</b>
-                            <span class="pull-right" skillbar-percent>95%</span>
+                            <span class="pull-right">95%</span>
                         </div>
                         <div class="skillbar-bar"></div>
                     </div>
                     <div class="skillbar clearfix" data-percent="95%">
                         <div class="skillbar-title"><b>Random Skill</b>
-                            <span class="pull-right" skillbar-percent>95%</span>
+                            <span class="pull-right">95%</span>
                         </div>
                         <div class="skillbar-bar"></div>
                     </div>
@@ -862,19 +861,23 @@
             <form>
                 <h2>Send Message</h2>
                 <div class="inputBox">
-                    <input type="text" required="required">
-                    <span>Full Name</span>
+                    <input type="text" required="required" id="name">
+                    <span><i class="fas fa-user"></i>   Full Name</span>
                 </div>
                 <div class="inputBox">
-                    <input type="text" required="required">
-                    <span>Email</span>
+                    <input type="email" required="required" id="email">
+                    <span><i class="fas fa-envelope"></i>   Email</span>
                 </div>
                 <div class="inputBox">
-                    <textarea required="required"></textarea>
+                    <textarea required="required" id="msg" cols="15" rows="5"></textarea>
                     <span>Message</span>
                 </div>
                 <div class="inputBox">
-                    <input type="submit" value="Send">
+                    <input type="submit" value="Send" onclick="message()">
+                </div>
+                <div class="message">
+                    <div class="success" id="success">Message Successfully Sent!</div>
+                    <div class="danger" id="danger">Fields Can't be Empty!</div>
                 </div>
             </form>
         </div>

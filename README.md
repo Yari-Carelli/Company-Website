@@ -2,10 +2,15 @@
 
 
 #
+
+<img width="700" src="assets//images/mockup.png">
+
+#
+
 This project was created as part of the Full Stack Software Development course offered by Code Institute. <br>
 It is a single page website made of multiple sections: Home section, About Us section, Services section, Statistics section, Team section, Prices section, Testimonials section, Blog section, Clients section, Contact section.
 
-[Live Preview](https://8000-yaricarelli-myfirstwebs-ykjmch12n58.ws-eu71.gitpod.io/)
+[Live Preview](https://yari-carelli.github.io/My-First-Website/)
 
 #
 
@@ -17,6 +22,14 @@ It is a single page website made of multiple sections: Home section, About Us se
 - Deploy a Front-End web application to a Cloud platform
 - Maximise future maintainability through documentation, code structure and organisation
 - Demonstrate and document the development process through a version control system such as GitHub
+
+#
+
+## User Stories
+
+- As a Site User, I want to understand the website, so I can learn more about the brand.
+- As a Site User, I want to be able to easily navigate through the website, so I can find the information I am looking for.
+- As a Mobile Device User, I want the website to be responsive, so I can use my phone or tablet to easily visit it.
 
 #
 
@@ -43,13 +56,13 @@ It is a single page website made of multiple sections: Home section, About Us se
 
 - The About Us section gives details about what the company offers their clients
 - This section shows the user the important information they need to know about the company
-The about section features an image on the right, which recall the website's theme colors, with an icon on the center of it which ideally links to a presentation video of the company; at the moment, by clicking on the icon, the user is directed to Youtube's homepage
+- An image on the right side recalling the website's theme colors has a clickable icon on the center, featuring a sonar wave animation. By clicking on the icon, the user is ideally linked to a presentation video of the company; at the moment, the link is set to Youtube's homepage
 
 <img width="600" src="assets/images/about_section.png">
 
 ### Services Section
 - By visiting this section, the user becomes familiar with all the different services the company provides
-- The services are organized in a two-rows layout, and each service is embellished with an appropriate icon
+- The services are organized in a two-rows layout, and each service is embellished with a specific icon
 
 <img width="600" src="assets/images/services_section.png">
 
@@ -58,38 +71,60 @@ The about section features an image on the right, which recall the website's the
 
 <img width="600" src="assets/images/stat_section.png">
 
+### Team Section
+- This section provides information about the company's team members.
+- Artistic and dark pictures to increase contrast, together with smooth hover effects make this section more appealing
+
+<img width="600" src="assets/images/team_section.png">
+
+### Pricing Plans Section
+- 
+
+<img width="600" src="assets/images/prices_section.png">
+
+### Testimonials Section
+
+<img width="600" src="assets/images/testim_section.png">
+
+### Blog Section
+
+<img width="600" src="assets/images/blog_section.png">
+
+### Clients Section
+- Made with the jQuery plugin 'Owl Carousel' that lets you create a beautiful, responsive carousel slider
+
+<img width="600" src="assets/images/clients_section.png">
+
+### Contact Section
+
+<img width="600" src="assets/images/contact_section.png">
+
 #
 
 ## Technologies Used
 
-- HTML → for the webpage's markup language
-- CSS → to format the webpage's layout
-- Bootstrap → for responsiveness, Contact Section
+- HTML5 → for the webpage's markup language
+- CSS3 → to format the webpage's layout
+- Bootstrap → for responsiveness
 - JavaScript → for Sticky Header and Navigation Menu, Statistics Section, Client Section
 - Ionicons (https://nbs-it.github.io/ionicons-v2.0.1/) & Font Awesome Icons (https://fontawesome.com/) → for icons
 - Google Fonts (https://fonts.google.com/) → for typography
-- JQuery counting up plugin 'Counter Up 2' (https://github.com/bfintal/Counter-Up2) → for number counting in Statistics Section
-- Owl Carousel 2 (http://owlcarousel2.github.io/OwlCarousel2/) → for Clients Section
-
-#
-
-## User Stories
-
-- As a Site User, I want to understand the website, so I can learn more about the brand.
-- As a Site User, I want to be able to easily navigate through the website, so I can find the information I am looking for.
-- As a Mobile Device User, I want the website to be responsive, so I can use my phone or tablet to easily visit it.
+- jQuery counting up plugin 'Counter Up 2' (https://github.com/bfintal/Counter-Up2) → for number counting in Statistics Section
+- jQuery plugin Owl Carousel 2 (http://owlcarousel2.github.io/OwlCarousel2/) → for carousel slider in Clients Section
 
 #
 
 ## Manual Testing
 
-- I tested that this webpage works in different browsers: Chrome, Firefox, Safari
+- I have tested that this webpage works in different browsers: Chrome, Firefox, Safari
 
-- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+- I have confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
 
-- I confirmed that the navigation and all the sections of the website are readable and easy to understand
+- I have confirmed that the navigation and all the sections of the website are readable and easy to understand
 
-- I confirmed that all the functionalities implemented work correctly
+- I have confirmed that all the functionalities implemented work correctly
+
+- I have confirmed that the form works: requires entries in every field, will only accept an email in the email field, and the submit button works 
 
 #
 
@@ -112,9 +147,11 @@ The about section features an image on the right, which recall the website's the
 
 #
 
-## Existing Bugs
+## Fixed Bugs
 
-The existing errors shown in the screenshot below resulted when passing through the official W3C HTML Validator. <br>
+- Overlapsing issue causing horizontal scroll on small screen sizes
+
+- The errors shown in the screenshot below resulted when passing through the official W3C HTML Validator. <br>
 An attempt to solve the errors consisted in changing the aforementioned `span` element into a `div` element, however the same error was returned when passing through the Validator again. <br>
 Therefore, the errors have been purposely ignored as they do not affect code functionality.
 
