@@ -1015,12 +1015,8 @@ ul.pricing-feature li .feature_list{
 }
 
 .contactForm .inputBox .submit{
-    width: 100px;
-    cursor pointer
     margin-bottom: 20px;
-}
-
-.contactForm .inputBox button{
+    color: #fff;
     width: 100%;
     background-color: #00bcd4;
     border: none;
@@ -1030,10 +1026,6 @@ ul.pricing-feature li .feature_list{
     font-family: tahoma;
     outline: none;
     border-radius: 40px;
-}
-
-.contactForm .inputBox a{
-    color: #fff;
 }
 
 .message{
