@@ -23,6 +23,8 @@ It is a single page website made of multiple sections: Home section, About Us se
 - Maximise future maintainability through documentation, code structure and organisation
 - Demonstrate and document the development process through a version control system such as GitHub
 
+Building mobile apps is the latest trend for many companies. Therefore, my idea was to build a fictional app development company providing all kinds of services, such as app design and development, app store optimization, app marketing, app maintenance, and app design.
+App Square aims at being not only an app development company; it’s an organization that makes your dream come true and aims to provide the ultimate experience through their products and services, allowing innovative technology companies to amplify their growth ambitions.
 #
 
 ## User Stories
@@ -147,9 +149,10 @@ It is a single page website made of multiple sections: Home section, About Us se
 ## Validator Testing
 
 - HTML
-   - No errors were found when passing through the official W3C HTML Validator
+   - No errors were found when passing through the official W3C HTML Validator, either by direct input and by URL
 
 <img width="500" src="assets/images/html_validator.png">
+<img width="500" src="assets/images/html_validator_url.png">
 
 - CSS
    - No errors were found when passing through the official W3C CSS Validator (Jigsaw)
