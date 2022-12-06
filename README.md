@@ -91,6 +91,7 @@ App Square aims at being not only an app development company; it’s an organiza
 - Features three cards containing pricing plan details; each card is animated on hover
 - Each card is provided of a button, which invites the user to purchase the plan
 - Buttons' background and navbar are the same color
+- Pricing plan details are deliberately not specified
 
 <img width="500" src="assets/images/prices_section.png">
 
@@ -107,6 +108,7 @@ App Square aims at being not only an app development company; it’s an organiza
 
 ### Clients Section
 - Made with the jQuery plugin 'Owl Carousel' that lets you create a beautiful, responsive carousel slider
+- Displays placeholder images as clients logos
 
 <img width="500" src="assets/images/clients_section.png">
 
