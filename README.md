@@ -46,12 +46,8 @@ It is a single page website made of multiple sections: Home section, About Us se
 
 ## Deployment
 
-- The site was deployed to GitHub pages. <br>
-The steps to deploy are as follows:
-   - In the GitHub repository, navigate to the Settings tab
-   - From the source section drop-down menu, select the 'main' Branch
-   - Once the main branch has been selected, the page provided the link to the completed website.
-
+- The site was deployed to GitHub pages.
+<br>
 The live link can be found here [Company Website](https://yari-carelli.github.io/My-First-Website/)
 
 #
